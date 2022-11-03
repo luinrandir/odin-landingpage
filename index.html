@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
     <title>The Box</title>
   </head>
   <body>
     <div class="header">
-      <p>The Box</p>
-      <a href="#" class="nav-link">Our story</a>
-      <a href="#" class="nav-link">Who Are We</a>
-      <a href="#" class="nav-link">Contact</a>
+      <div class="header-left">The box</div>
+      <div class="header-right">
+        <a href="#" class="nav-link">Our story</a>
+        <a href="#" class="nav-link">Who Are We</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
     </div>
     <div class="welcome">
       <div class="welcome-left">
@@ -35,22 +44,24 @@
     </div>
     <div class="info">
       <div class="info-title">Our Company</div>
-      <figure class="portrait">
-        <img src="img/employee.svg" alt="Ana" />
-        <figcaption>Ana - Big Box Leader</figcaption>
-      </figure>
-      <figure class="portrait">
-        <img src="img/employee.svg" alt="Greg" />
-        <figcaption>Greg - Medium Box Leader</figcaption>
-      </figure>
-      <figure class="portrait">
-        <img src="img/employee.svg" alt="Emily" />
-        <figcaption>Emily - Small Box Leader</figcaption>
-      </figure>
-      <figure class="portrait">
-        <img src="img/employee.svg" alt="Hank" />
-        <figcaption>Hank - Box intern</figcaption>
-      </figure>
+      <div class="info-employees">
+        <figure class="portrait">
+          <img src="img/employee.svg" alt="Ana" />
+          <figcaption>Ana - Big Box Leader</figcaption>
+        </figure>
+        <figure class="portrait">
+          <img src="img/employee.svg" alt="Greg" />
+          <figcaption>Greg - Medium Box Leader</figcaption>
+        </figure>
+        <figure class="portrait">
+          <img src="img/employee.svg" alt="Emily" />
+          <figcaption>Emily - Small Box Leader</figcaption>
+        </figure>
+        <figure class="portrait">
+          <img src="img/employee.svg" alt="Hank" />
+          <figcaption>Hank - Box intern</figcaption>
+        </figure>
+      </div>
     </div>
     <div class="quote">
       <figure class="quote-text">
@@ -66,15 +77,17 @@
       </figure>
     </div>
     <div class="signup">
-      <div class="signup-conent">
-        <div class="signup-text">
+      <div class="signup-content">
+        <div class="signup-left">
           What are you wating for? Sign up now for a free quote!
         </div>
-        <button class="signup-button">Sign Up</button>
+        <div class="signup-right">
+          <button class="signup-button">Sign Up</button>
+        </div>
       </div>
     </div>
     <div class="footer">
-      Developed by &dash;
+      Developed by:
       <a href="https://github.com/luinrandir" target="_blank">Luin Randir</a>
     </div>
   </body>
